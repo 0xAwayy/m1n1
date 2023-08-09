@@ -1,6 +1,9 @@
-# m1n1: an experimentation playground for Apple Silicon
+# m1n1ma: Awayy's own personal playground
 
-(And to some extent a Linux bootloader)
+~~(And to some extent a Linux bootloader)~~
+
+## Reasons for existing
+m1n1 while being an incredible project, lacks some features or some QoL things that I'd like to add for my own personal use. The first major thing I want to add, or I guess remove is the usage of eventfd and replace it with kqueues with the lldb server, so I can truly debug with lldb. While the console is great, this would be better 😅
 
 ## Building
 
